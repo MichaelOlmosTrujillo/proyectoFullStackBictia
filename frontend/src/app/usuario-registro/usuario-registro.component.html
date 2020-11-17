@@ -1,27 +1,26 @@
+<div class="registro">
+  <form id="formRegistro" class="registroForm d-flex flex-column align-items-center">
+    <div class="form-group">
+      <label for="nombre" id="nombre">Nombre</label>
+      <input type="text" class="form-control" id="nombre" aria-describedby="nombre">
+    </div>
+    <div class="form-group">
+      <label for="email" id="email">Email</label>
+      <input type="email" class="form-control" id="email" aria-describedby="email">
+      <small id="emailHelp" class="form-text text-muted">No compartimos su correo con nadie</small>
+    </div>
+    <div class="form-group">
+      <label for="pass" id="pass">Contraseña</label>
+      <input type="password" class="form-control" id="pass">
+    </div>
+    <div>
+      <button (click)="registrar()" class="btn btn-primary">
+        Registrar
+      </button>
+      <button class="btn btn-primary" id="botonCancelarRegistro">
+        Cancelar
+      </button>
+    </div>
+  </form>
 
-        <!-- formulario de registro -->
-        <div class="registro">
-            <form action="" id="formRegistro" class="registroForm d-flex flex-column align-items-center">
-                <div class="form-group">
-                    <label for="nombre" id="nombre">Nombre</label>
-                    <input type="text" class="form-control" id="nombre" aria-describedby="nombre">
-                </div>
-                <div class="form-group">
-                    <label for="email" id="email">Email</label>
-                    <input type="email" class="form-control" id="email" aria-describedby="email">
-                    <small id="emailHelp" class="form-text text-muted">No compartimos su correo con nadie</small>
-                </div>
-                <div class="form-group">
-                    <label for="pass" id="pass">Contraseña</label>
-                    <input type="password" class="form-control" id="pass">
-
-                </div>
-                <div>
-                    <button type="submit" class="btn btn-primary">Registrar<button>
-                            <button type="button" class="btn btn-primary" id="botonCancelarRegistro">Cancelar<button>
-
-                </div>
-            </form>
-        </div>
-
-        <!-- Final de formulario de registro -->
+</div>

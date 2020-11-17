@@ -13,7 +13,7 @@
     border-radius: 10px;
     padding: 20px;
     color: rgb(202, 136, 49);
-    top: -500px;
+    /* top: -500px; */
     transition: top 1s ease;
 
 }

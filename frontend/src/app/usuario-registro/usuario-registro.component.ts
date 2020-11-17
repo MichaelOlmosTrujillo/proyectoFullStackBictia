@@ -24,5 +24,6 @@ export class UsuarioRegistroComponent implements OnInit {
       },
       (err) => console.log(err)
     );
+    
   }
 }
