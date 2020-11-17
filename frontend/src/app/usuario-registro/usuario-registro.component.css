@@ -1,3 +1,21 @@
-p{
-    margin-top: 100px;
+/*Formulario de registro*/
+.registro {
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
 }
+
+.registroForm {
+    width: 300px;
+    z-index: 3000;
+    position: absolute;
+    background-color: #3D3342;
+    border-radius: 10px;
+    padding: 20px;
+    color: rgb(202, 136, 49);
+    top: -500px;
+    transition: top 1s ease;
+
+}
+
+/*Fin del Formulario de registro*/
