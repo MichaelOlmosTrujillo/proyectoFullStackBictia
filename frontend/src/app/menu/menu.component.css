@@ -1,0 +1,36 @@
+nav{
+    background-color: #E9E1CD;
+    margin: 0px 0px 10px 0px ;
+}
+.navbar {
+    padding: 0 5px 0 0;
+}
+
+.navbar-nav {
+    font-size: 0.8rem;
+}
+
+.navbar-nav li {
+    margin: 0 22px;
+}
+
+.marginLogo {
+    margin-right: 50px;
+    margin-left: 30px;
+    padding-bottom: 0px;
+}
+
+.marginBotonCollapse {
+    margin-right: 5px;
+}
+.dropdown-item{
+    background-color: #E9E1CD;
+}
+.dropdown-menu{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border: none;
+}
+.dropdown-item:hover{
+    background-color: #dbd2b9;
+}

@@ -1,0 +1,27 @@
+@media (min-width: 1200px) {
+    .carousel-item img {
+        width: 68% !important;
+        height: 510px;
+        margin: 0 auto;
+    }
+
+    .view video {
+        height: 510px;
+    }
+}
+
+
+/* Clases del carrusel */
+.marginCarrusel {
+    margin-top: 100px;
+}
+
+.carousel-item img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.view video {
+    width: 100%;
+    max-width: 100%;
+}

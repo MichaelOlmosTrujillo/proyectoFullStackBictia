@@ -1,0 +1,52 @@
+<!-- Nav bar -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+
+  <a class="navbar-brand marginLogo" href="#">
+    <img src="../../assets/images/logo/logo-03.png" width="100px" alt="logoIrCulturapp">
+  </a>
+
+
+  <button class="navbar-toggler marginBotonCollapse" type="button" data-toggle="collapse"
+    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+    aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" data-toggle="collapse" id="navbarSupportedContent"
+    data-target="#navbarSupportedContent">
+    <ul class="navbar-nav mr-0">
+      <li class="nav-item">
+        <a routerLink="centrosCulturales" class="nav-link">Centros Culturales</a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="mapa" class="nav-link">Mapa</a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="videosEscenarios" class="nav-link">Videos y escenarios</a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="merchandising" class="nav-link">Merchandising</a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="calendario" class="nav-link">Calendario</a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="informacion" class="nav-link">información</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          Iniciar Sesión
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" routerLink = "inicioSesionUsuario">Usuario</a>
+          <a class="dropdown-item" routerLink = "inicioSesionCentroCultural">Centro Cultural</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a routerLink="registroUsuario" class="nav-link" id="botonRegistro">Registrate</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!-- Final del nav bar -->

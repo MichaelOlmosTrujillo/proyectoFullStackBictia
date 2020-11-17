@@ -1,0 +1,59 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100vw;
+}
+.relativa{
+    position: relative;
+    display: flex;
+justify-content: center;
+margin-bottom: 50px;
+}
+.absoluta{
+    position: absolute;
+    z-index: 2000;
+    font-size: 30px;
+    top: -2700px;
+    transition: top 1s ease;
+    background-color: rgba(0, 0, 0, 0.431);
+    border-radius: 10px;
+    color: blanchedalmond;
+}
+.absoluta h3{
+    margin: 20px ;
+}
+.absoluta a{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+.mapa {
+    border-radius: 20px;
+    height: 500px;
+    width: 50vw;
+    border: 5px solid black;
+    /* margin: 100px; */
+    max-width: 100%;
+        /* margin: 100px; */
+    /* border: 5px solid black; */
+    /* padding: 100px; */
+}
+/* Media query para el mapa */
+@media(max-width: 700px){
+   .mapa{
+        width: 80vw;
+   } 
+}
+.mapaPropiedades{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 50px;
+}
+

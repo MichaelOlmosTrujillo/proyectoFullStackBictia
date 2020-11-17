@@ -1,0 +1,26 @@
+/* Footer */
+footer {
+    background-color: #3D3342;
+    color: #E9E1CD;
+}
+
+footer a {
+    color: #E9E1CD;
+}
+
+.logoFilarmonicaBogota img {
+    max-width: 100%;
+}
+
+.infoFooter {
+    text-align: center;
+}
+
+.logoFooter {
+    width: 80px;
+    background-color: #E9E1CD;
+    border-radius: 30px;
+    margin: 0 20px;
+}
+
+/* Final del Footer */
