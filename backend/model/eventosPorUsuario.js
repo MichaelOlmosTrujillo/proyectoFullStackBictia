@@ -9,6 +9,7 @@ const esquemaEvento = new mongoose.Schema({
     nombre: String,
     descripcion: String,
     lugar: String,
+    tipoEvento: String,
     sticker:String,
     fechaEvento:String,
     fechaRegistro: {
@@ -19,5 +20,5 @@ const esquemaEvento = new mongoose.Schema({
 
 //Creamos los exports
 
-const Evento = mongoose.model("evento", esquemaEvento);
-module.exports = Evento;
+const EventoPorUsuario = mongoose.model("evento", esquemaEvento);
+module.exports = EventoPorUsuario;

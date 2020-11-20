@@ -6,9 +6,11 @@ const cors = require("cors");//Sirve para conectar el Frontend con el Backend
 //Modelos creados
 const usuario = require("./routes/usuario");
 const auth = require("./routes/auth");
-const eventos = require("./routes/eventos");
+const authCentroCultural = require("./routes/authCentroCultural");
+const eventosPorUsuario = require("./routes/eventosPorUsuario");
 const eventosFuturos = require("./routes/futurosEventos");
 const centroCultural = require("./routes/centroCultural");
+const eventosPorCentroCultural = require("./routes/eventosPorCentroCultural");
 
 //App
 const app = express();
@@ -16,9 +18,11 @@ app.use(cors());
 app.use(express.json());
 app.use("/api/usuario/", usuario);
 app.use("/api/auth/", auth);
-app.use("/api/eventos/", eventos);
+app.use("/api/authCentroCultural/", authCentroCultural);
+app.use("/api/eventosPorUsuario/", eventosPorUsuario);
 app.use("/api/eventosFuturos/", eventosFuturos);
 app.use("/api/centroCultural/", centroCultural);
+app.use("/api/eventosPorCentroCultural/", eventosPorCentroCultural)
 
 // Puerto de ejecución
 

@@ -29,7 +29,7 @@ esquemaUsuario.methods.generateJWT = function(){
         nombre: this.nombre,
         correo:this.correo,
         pass:this.pass
-    }, "Cono de chocolate")
+    }, "clave")
 }
 
 // Creamos los exports
