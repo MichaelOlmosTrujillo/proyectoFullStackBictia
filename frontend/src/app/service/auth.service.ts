@@ -5,9 +5,9 @@ import { HttpClient } from '@angular/common/http';
 })
 export class AuthService {
   // Va a decir cuál es la api de nuestro backend para registrar un usuario
-  private registroUrl = 'http://localhost:3005/api/usuario/';
+  private registroUrl = 'https://irculturapp.herokuapp.com/api/usuario/';
   //Nos va a ayudar a autenticar un usuario
-  private loginUrl = 'http://localhost:3005/api/auth';
+  private loginUrl = 'https://irculturapp.herokuapp.com/api/auth';
   constructor(private http: HttpClient) {}
   registroUsuario(usuario) {
     //retorna un observable

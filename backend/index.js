@@ -1,3 +1,4 @@
+require('dotenv').config() //Config mongo
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");//Sirve para conectar el Frontend con el Backend 
@@ -16,6 +17,10 @@ const eventosPorCentroCultural = require("./routes/eventosPorCentroCultural");
 const app = express();
 app.use(cors());
 app.use(express.json());
+
+app.get("/", (req, res)=>{
+    res.status(200).send("El servidor está corriendo");
+});
 app.use("/api/usuario/", usuario);
 app.use("/api/auth/", auth);
 app.use("/api/authCentroCultural/", authCentroCultural);
@@ -33,7 +38,7 @@ app.listen(port, () => {
 
 // Registro en BD en mongo
 
-mongoose.connect("mongodb://localhost/irCulturapp", {
+mongoose.connect(process.env.MONGOURL, {
         useNewUrlParser: true,
         useFindAndModify: false,
         useCreateIndex: true,

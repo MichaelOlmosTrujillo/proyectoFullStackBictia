@@ -18,7 +18,7 @@ function auth(req, res, next) {
   // Si existe el jwt
   try {
     //Verificación del JWT y la palabra clave encriptada
-    const payload = jwt.verify(jwtToken, "clave");
+    const payload = jwt.verify(jwtToken, process.env.JWTSECRET_USUARIO);
     //Si se verifica la información se le agrega al usuario el "payload"
     req.usuario = payload;
     //Hace el siguiente paso si verifica la información

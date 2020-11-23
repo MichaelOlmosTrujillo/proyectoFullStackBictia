@@ -1,6 +1,7 @@
 nav{
     background-color: #F9DBAA;
     margin: 0px 0px 10px 0px ;
+    color: #7A3E48;
 }
 .navbar {
     padding: 0 5px 0 0;
@@ -12,6 +13,7 @@ nav{
 
 .navbar-nav li {
     margin: 0 22px;
+    cursor: pointer;
 }
 
 .marginLogo {

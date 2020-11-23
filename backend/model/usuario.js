@@ -29,7 +29,7 @@ esquemaUsuario.methods.generateJWT = function(){
         nombre: this.nombre,
         correo:this.correo,
         pass:this.pass
-    }, "clave")
+    }, process.env.JWTSECRET_USUARIO)
 }
 
 // Creamos los exports

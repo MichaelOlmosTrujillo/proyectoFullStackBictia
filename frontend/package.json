@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "server": "npx serve dist/frontend"
   },
   "private": true,
   "dependencies": {
@@ -22,6 +23,7 @@
     "@angular/platform-browser-dynamic": "~10.1.4",
     "@angular/router": "~10.1.4",
     "rxjs": "~6.6.0",
+    "serve": "^11.3.2",
     "sweetalert2": "^10.10.1",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"

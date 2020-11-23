@@ -1,24 +1,27 @@
 <!-- Main de los eventos culturales -->
 <main class="row justify-content-center align-items-center">
   <!-- Cards de centros culturales -->
-  <div class="card">
+  <div class="card" data-toggle="modal" data-target="#centrosCulturalesModal">
     <a routerLink="centrosCulturales">
       <img src="../../assets/images/centro-cultural.jpg" class="card-img-top" alt="centroCultural" />
     </a>
 
-    <div class="card-body justify-content-center d-flex">
+    <div  class="card-body justify-content-center d-flex">
       <a routerLink="centrosCulturales"> Centros culturales </a>
     </div>
   </div>
 
+  <!-- Modal Centros culturales -->
+  <app-modal-centros-culturales></app-modal-centros-culturales>
+<!-- Final de los centros culturales -->
   <!-- Cards del mapa -->
 
   <div class="card">
-    <a routerLink="mapa">
+    <a href="#mapid">
       <img src="../../assets/images/mapa.jpg" class="card-img-top" alt="mapa" />
     </a>
     <div class="card-body justify-content-center d-flex">
-      <a routerLink="mapa">Mapa</a>
+      <a href="#mapid">Mapa</a>
     </div>
   </div>
 

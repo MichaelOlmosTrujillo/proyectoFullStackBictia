@@ -32,7 +32,7 @@ esquemaCentroCultural.methods.generateJWT = function (){
         nombre: this.nombre,
         correo: this.correo,
         pass: this.pass
-    }, "Cono de uvas")
+    }, process.env.JWTSECRET_CENTROCULTURAL)
 }
 
 //Creamos los exports
